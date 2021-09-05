@@ -1,10 +1,12 @@
 setInterval(
     function () {
         try {
-            const skipButton = document.getElementsByClassName('ytp-ad-skip-button-container');
-            skipButton[0].click();
+            const adButtonClass = document.getElementsByClassName('ytp-ad-skip-button-container');
+            const adButtonElem = adButtonClass[0];
+            adButtonElem.click();
         } catch (e) {
             ;
         }
     }
 ), 1000
+
