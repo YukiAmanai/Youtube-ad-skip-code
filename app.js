@@ -7,4 +7,4 @@ const adSkipButton = () => {
         ;
     }
 }
-setInterval(adSkipButton ,1000);
+setInterval(adSkipButton ,500);
